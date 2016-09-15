@@ -30,7 +30,13 @@ public class PrimeFactorsTests {
     @Test
     public void printsABlankListFor1() throws Exception {
         new PrimeFactors().generate(1);
-        assertEquals("\n", outContent.toString());
+        assertEquals("[]\n", outContent.toString());
+    }
+
+    @Test
+    public void printsAListOfPrimeFactorsOf30() throws Exception {
+        new PrimeFactors().generate(30);
+        assertEquals("[2, 3, 5]\n", outContent.toString());
     }
 
 
