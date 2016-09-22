@@ -9,9 +9,6 @@ import java.io.PrintStream;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by RachelSmith on 15/09/2016.
- */
 public class PrimeFactorsTests {
 
 
